@@ -36,3 +36,13 @@ OK readings: 3
 ### Lesson Learned
 Successful execution does not guarantee correct results.
 Print debugging reveals variable states and logical errors.
+
+## Task 2 - First Steps with pdb
+
+- Used breakpoint() to pause execution.
+- Inspected variables using the p command.
+- Navigated execution using n, s, and r.
+- Identified a logic bug in score accumulation.
+- Replaced raw_sum += raw with raw_sum += adjusted.
+- Removed the temporary breakpoint.
+- Verified the adjusted average: 70.0.
