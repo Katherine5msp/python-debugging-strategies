@@ -46,3 +46,13 @@ Print debugging reveals variable states and logical errors.
 - Replaced raw_sum += raw with raw_sum += adjusted.
 - Removed the temporary breakpoint.
 - Verified the adjusted average: 70.0.
+
+## Task 3 - Following the Data
+
+- Used pdb from the command line.
+- Traced data across multiple functions.
+- Inspected subtotal and discount rate.
+- Identified incorrect percentage conversion.
+- Distinguished the root cause from the visible symptom.
+- Corrected the discount rate by dividing by 100.
+- Verified the final total: 28.62.
