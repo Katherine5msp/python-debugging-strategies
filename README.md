@@ -56,3 +56,15 @@ Print debugging reveals variable states and logical errors.
 - Distinguished the root cause from the visible symptom.
 - Corrected the discount rate by dividing by 100.
 - Verified the final total: 28.62.
+
+## Task 4 - Debugging with logging
+
+- Configured logging using logging.basicConfig().
+- Used DEBUG, INFO, and WARNING severity levels.
+- Analyzed logs to identify a counting bug.
+- Moved the counter inside the validation condition.
+- Corrected the average from 15.0 to 20.0.
+- Verified syntax and edge case behavior.
+
+Lesson learned: Logging provides structured visibility
+into program behavior and helps identify logic errors.
