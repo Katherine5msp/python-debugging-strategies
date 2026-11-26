@@ -68,3 +68,34 @@ Print debugging reveals variable states and logical errors.
 
 Lesson learned: Logging provides structured visibility
 into program behavior and helps identify logic errors.
+
+## Task 5: Defensive Debugging
+
+**File:** `defensive.py`
+
+### Objective
+Improve program reliability by validating assumptions and detecting
+invalid inputs before they cause unexpected behavior.
+
+### Root Cause
+The original program assumed that every comma-separated value was a
+valid integer. It did not handle empty inputs or scores outside the
+expected range of 0 to 100.
+
+### Solution
+- Added input type validation.
+- Rejected empty input and missing scores.
+- Added clear error messages for non-numeric values.
+- Restricted scores to the range 0–100.
+- Preserved average calculations and grade classification.
+
+### Testing
+Tested seven scenarios covering valid scores, invalid text, empty
+input, missing values, and out-of-range scores.
+
+All seven functional tests passed.
+
+### Lesson Learned
+Defensive debugging helps identify problems at their source.
+Validating assumptions early makes errors easier to understand,
+diagnose, and correct.
